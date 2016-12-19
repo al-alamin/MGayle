@@ -2,3 +2,15 @@
 .interactive-slider-v2.img-v4{
     background-image: url(../img/top_banner.jpg) !important;
 }
+.color-black{
+    color: #333 !important;
+}
+.color-white{
+    color: #fff !important;
+}
+.infoblock-content {
+     padding: 50px 50px 0px 50px;
+}
+.our-service-info ul li a{
+    color:white;
+}
