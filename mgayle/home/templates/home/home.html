@@ -3,10 +3,13 @@
 {% block content %}
     {% include 'home/top_banner.html' %}
     {% include 'home/about-us.html' %}
+     <div class="bg-color-light">
     {% include 'home/current_tours.html' %}
+         </div>
+    {% include 'home/travle_resources.html' %}
     <div class="bg-color-light">
         {% include 'home/future_tours.html' %}
     </div>
-        {% include 'home/travle_resources.html' %}
+{% include 'home/contact_us.html' %}
 
 {% endblock %}
