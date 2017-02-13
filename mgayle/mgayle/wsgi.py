@@ -16,7 +16,8 @@ sys.path.append(
 sys.path.append(
     '/mnt/340048A400486EC4/Dropbox/Programming/Django/mgayle/mgayle/mgayle')
 
-
+sys.path.append(
+    '/app')
 
 
 
