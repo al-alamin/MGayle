@@ -1,0 +1,41 @@
+/* Add here all your css styles (customizations) */
+.interactive-slider-v2.img-v4{
+    background-image: url(../img/OyeNO.JPG) !important;
+    background-position: bottom;
+}
+.color-black{
+    color: #333 !important;
+}
+.color-white{
+    color: #fff !important;
+}
+.infoblock-content {
+     padding: 50px 50px 0px 50px;
+}
+.our-service-info ul li a{
+    color:white;
+}
+
+/*important to remove extra white space in mobile view before about us section*/
+#about_us .our-service-info h2{
+    margin: 0!important;
+    padding: 90px 0 30px !important;
+}
+#nav-place-holder{
+    background-color: black;
+    height: 110px
+}
+
+@media (max-width: 991px){
+#nav-place-holder{
+    background-color: black;
+    height: 6em;
+}}
+
+.margin-bottom-40{
+    margin-bottom: 40px !important;
+}
+
+.testimonials-bs {
+    background: url(../img/PolarBearfin2.jpg)  50% 0 repeat fixed !important;
+}

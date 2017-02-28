@@ -1,0 +1,99 @@
+{% extends 'home/base.html' %}
+{% load staticfiles %}
+{% block content %}
+    <div id='nav-place-holder'></div>
+    <div class="our-tours g-heading-v8">
+        <div class="container content">
+            <div class="row portfolio-item margin-bottom-50">
+                <!-- Carousel -->
+                <div class="col-md-6">
+                    <div class="carousel slide carousel-v1" id="myCarousel">
+                        <div class="carousel-inner">
+                            <div class="item">
+                                <img alt="" src="{% static 'img/AntTeamDeceIs.JPG' %}">
+
+                                <div class="carousel-caption">
+                                    <p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
+                                </div>
+                            </div>
+                            <div class="item active">
+                                <img alt="" src="{% static 'img/AntTeamDeceIs.JPG' %}">
+
+                                <div class="carousel-caption">
+                                    <p>Cras justo odio, dapibus ac facilisis into egestas.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img alt="" src="{% static 'img/AntTeamDeceIs.JPG' %}">
+
+                                <div class="carousel-caption">
+                                    <p>Justo cras odio apibus ac afilisis lingestas de.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-arrow">
+                            <a data-slide="prev" href="#myCarousel" class="left carousel-control">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a data-slide="next" href="#myCarousel" class="right carousel-control">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Carousel -->
+
+                <!-- Content Info -->
+                <div class="col-md-6">
+                    <h2 class="margin-bottom-40"><strong>The Rocky</strong> Mountains</h2>
+
+                    <ul class="margin-bottom-30">
+                        <li><h4>
+                            Physical Activities </h4>
+                            <ul>
+                                <li>Hiking</li>
+                                <li>Light rock climbing</li>
+                                <li>Camping</li>
+                            </ul>
+                        </li>
+                        <li><h4>
+                            Cultural Activities </h4>
+                            <ul>
+                                <li>Native American History/ Landmarks</li>
+                                <li>Oregon Trail</li>
+                            </ul>
+                        </li>
+                        <li><h4>
+                            Level of Physical Difficulty : Moderate </h4>
+                        </li>
+                        <li><h4>
+                            Gear List : typical </h4>
+                        </li>
+                        <li><h4>
+                            Trip Description </h4>
+                            <ul>
+                                <li>Trip start in Denver, Colorado, and focuses on exploring the Eastern Range of the
+                                    Colorado Rocky Mountains, inclusive of Red Rocks Park, and Rocky Mountain National
+                                    Park.
+                                </li>
+                            </ul>
+                        </li>
+                        <li><h4>
+                            Length of Trip (8-10 days)</h4>
+                        </li>
+                        <li><h4>
+                            Dates </h4>
+                            <ul>
+                                <li>Late summary to early Fall.</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- End Content Info -->
+            </div>
+        </div>
+    </div>
+{% endblock %}
