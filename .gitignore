@@ -89,3 +89,12 @@ ENV/
 # Rope project settings
 .ropeproject
 .idea/
+
+backup
+db.sqlite3
+db.sqlite3
+*.fuse_hidden*
+server_static
+../resource
+../resource/
+server_static
